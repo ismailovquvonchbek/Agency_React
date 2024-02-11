@@ -1,0 +1,24 @@
+.our {
+    margin-top: 109px;
+}
+
+.our__heading {
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #3D3D3F;
+    margin-bottom: 50px;
+}
+
+.our__list {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our__img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+} 

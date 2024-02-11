@@ -1,0 +1,30 @@
+.button {
+    border: none;
+    color: #fff;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 700;
+    padding: 11px 27px;
+    border-radius: 50px;
+    background: #FD695A;
+    border: 1.5px solid #FD695A;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: white;
+        color: #FD695A;
+    }
+
+    &.white {
+        width: 183.07px;
+        height: 48px;
+        color: #FD695A;
+        background-color: #fff;
+        border: none;
+
+        &:hover {
+            background-color: #FD695A;
+            color: white;
+        }
+    }
+}
